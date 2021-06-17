@@ -1,0 +1,30 @@
+<routes>
+
+
+<route id="R0" edges="d1" />
+<route id="R1" edges="d1" />
+
+
+<route id="R20" edges="d1" />
+<route id="R21" edges="d1" />
+
+
+
+
+<flow id="flow0"  route="R0" begin="0" departPos="105" period="1" number="1" departSpeed="random" departLane="random"/>
+<flow id="flow1"  route="R1"  begin="1" departPos="5" period="1" number="1" departSpeed="random" departLane="random"/>
+
+<flow id="flow20" route="R20"  begin="1" departPos="6" period="1" number="1" departSpeed="random" departLane="random" />     
+<flow id="flow21" route="R21" begin="1" departPos="7" period="1" number="1" departSpeed="random" departLane="random"/>
+
+<flow id="flow3"  route="R1"  begin="1" departPos="5" period="1" number="1" departSpeed="random" departLane="random"/>
+<flow id="flow4" route="R20"  begin="1" departPos="6" period="1" number="1" departSpeed="random" departLane="random" />     
+<flow id="flow5" route="R21" begin="1" departPos="7" period="1" number="1" departSpeed="random" departLane="random"/>
+
+<flow id="flow6"  route="R1"  begin="1" departPos="5" period="1" number="1" departSpeed="random" departLane="random"/>
+<flow id="flow7" route="R20"  begin="1" departPos="6" period="1" number="1" departSpeed="random" departLane="random" />     
+<flow id="flow8" route="R21" begin="1" departPos="7" period="1" number="2" departSpeed="random" departLane="random"/>
+
+
+
+</routes>
